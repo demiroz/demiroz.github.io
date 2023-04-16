@@ -1,3 +1,49 @@
 
-# This is Fatih Demiroz's site for demonstrating experiences and past work.
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<style>
+		/* Style the navigation menu */
+		nav {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			height: 100%; /* Make the menu fill the entire height of the page */
+			width: 200px; /* Set the width of the menu */
+			position: fixed; /* Fix the menu to the left side of the page */
+			top: 0; /* Align the top of the menu with the top of the page */
+			left: 0; /* Align the left of the menu with the left of the page */
+		}
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		nav li {
+			margin-bottom: 10px; /* Add some spacing between menu items */
+		}
+		nav a {
+			color: #fff;
+			text-decoration: none;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+	<div style="margin-left: 200px;"> <!-- Add a margin to the content to avoid overlap with the menu -->
+		<h1>Welcome to my website!</h1>
+		<p>This is a barebones website.</p>
+		<img src="https://via.placeholder.com/350x150" alt="Placeholder image">
+	</div>
+</body>
+</html>
+
 # Copyright (c) 2023 Fatih Demiroz. All rights reserved.
