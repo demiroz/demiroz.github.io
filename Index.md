@@ -14,7 +14,7 @@
         <section>
             <h2>About Me</h2>
             <p>
-                Hello! I'm Fatih Demiroz. This is a brief introduction about yourself.
+                Hello! I'm Fatih Demiroz. This is a brief introduction about yourself. I am a social scientist focusing on ML, NLP, Network Analysis, SEM, and Qualitative Data Analysis. 
             </p>
         </section>
 
