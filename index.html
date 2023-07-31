@@ -1,20 +1,21 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fatih Demiroz - Personal Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: "Arial", sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 0;
+            background-color: #f5f5f5;
         }
 
         header {
-            background-color: #333;
+            background-color: #007bff;
             color: #fff;
             text-align: center;
             padding: 2rem 0;
@@ -29,6 +30,9 @@
             max-width: 800px;
             margin: 0 auto;
             padding: 2rem;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
         }
 
         h2 {
@@ -57,18 +61,41 @@
         a:hover {
             text-decoration: underline;
         }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 1.5rem;
+        }
+
+        .social-icons a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 50%;
+            margin: 0 0.5rem;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .social-icons a:hover {
+            background-color: #0056b3;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1> Fatih Demiroz</h1>
+        <h1>Fatih Demiroz</h1>
     </header>
 
     <main>
         <section>
             <h2>About Me</h2>
             <p>
-                Welcome to my GitHub page. You can see links to my GitHub and LinkedIn profiles below. 
+                Hello! I'm Fatih Demiroz. This is a brief introduction about yourself. Add more details about your skills, interests, and achievements here.
             </p>
         </section>
 
@@ -76,10 +103,21 @@
             <h2>Contact Information</h2>
             <ul>
                 <li>Email: fxd009@shsu.edu</li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/fatih-demiroz/">My LinkedIn Page</a></li>
-                <li>GitHub: <a href="https://github.com/demiroz">Demiroz</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/fatih-demiroz/" target="_blank">Fatih's LinkedIn</a></li>
+                <li>GitHub: <a href="https://github.com/demiroz" target="_blank">Fatih's GitHub</a></li>
             </ul>
         </section>
+
+        <div class="social-icons">
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <!-- Add more social icons if you have them -->
+        </div>
     </main>
+
+    <!-- Font Awesome CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
 </body>
 </html>
